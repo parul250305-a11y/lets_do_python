@@ -55,6 +55,9 @@ Challenges learners to manage resource complexity, design data structures, and h
 
 ---
 
+# For small and beginner python project refer to this repository 
+-- https://github.com/parul250305-a11y/Beginner_Python_project.git
+ 
 ## 🌐 External Educational Platforms & Learning Resources
 
 To supplement the practice problems in this repository, learners can reference these comprehensive external platforms to study Python concepts, syntax, and theory from scratch:
