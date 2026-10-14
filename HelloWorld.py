@@ -1,2 +1,10 @@
-#Write a code for print your name in python.....
-print("Hey, my name is Parul , how are u doing")
+
+
+import math
+s = str(input())
+n = int(input() )
+f = float(input())
+a = math.floor(f)
+print(s)
+print(n)
+print(a)
