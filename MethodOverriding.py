@@ -1,0 +1,32 @@
+'''
+Implement classes Employee and SalesEmployee to demonstrate method overriding.
+
+Employee has following attributes:
+
+id (int),
+salary (int),
+A constructor with parameters id and salary and,
+A method getInfo() returning the string “EmployeeID:{id} Salary:{salary}”.
+SalesEmployee inherits from Employee with an additional attributes:
+
+sales (int, defaults to 0 if not provided),
+A constructor with parameters id, salary and sales, and calls constructor of Employee with id and salary,
+Overrides getInfo() to return the string “EmployeeID:{id} Salary:{salary} Sales:{sales}”.
+'''
+
+# Implement Employee and SalesEmployee class
+class Employee:
+    def __init__(self , id , salary):
+        self.id = id
+        self.salary = salary 
+    
+    def get_info(self):
+        return f"EmployeeID:{self.id} Salary:{self.salary}"
+        
+class SalesEmployee(Employee):
+    def __init__(self, id , salary , sales = 0):
+        super().__init__(id , salary)
+        self.sales = sales
+    def get_info(self):
+        return f"EmployeeID:{id} Salary:{salary} Sales:{sales}"
+        
